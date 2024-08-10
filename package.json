@@ -1,17 +1,18 @@
 {
     "name": "fengari-web",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Provides anything you need to run Fengari in the browser",
-    "repository": "https://github.com/fengari-lua/fengari-web.git",
+    "repository": "https://github.com/Carot-Subsidiaries/fengari-web.git",
     "contributors": [
         "Benoit Giannangeli <giann008@gmail.com>",
-        "Daurnimator <quae@daurnimator.com>"
+        "Daurnimator <quae@daurnimator.com>",
+        "Carot <nil@nil.nil>"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/fengari-lua/fengari-web/issues"
+        "url": "https://github.com/Carot-Subsidiaries/fengari-web/issues"
     },
-    "homepage": "https://github.com/fengari-lua/fengari-web#readme",
+    "homepage": "https://github.com/Carot-Subsidiaries/fengari-web#readme",
     "main": "dist/fengari-web.bundle.js",
     "dependencies": {
         "fengari": "^0.1.4",
@@ -26,9 +27,8 @@
         "webpack-cli": "^5.1.4"
     },
     "scripts": {
-        "build": "webpack -p",
+        "build": "webpack build",
         "lint": "eslint webpack.config.js src/",
-        "prepare": "npm run build",
         "prepublishOnly": "git diff-index --quiet --cached HEAD -- && npm run lint"
     },
     "eslintConfig": {

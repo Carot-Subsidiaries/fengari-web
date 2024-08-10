@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fengari-lua/fengari-web.svg?branch=master)](https://travis-ci.org/fengari-lua/fengari-web)
+[![Build Status](https://travis-ci.org/Carot-Subsidiaries/fengari-web.svg?branch=master)](https://travis-ci.org/Carot-Subsidiaries/fengari-web)
 [![npm](https://img.shields.io/npm/v/fengari-web.svg)](https://npmjs.com/package/fengari-web)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![#fengari on libera.chat](https://img.shields.io/badge/chat-%23fengari-brightgreen)](https://web.libera.chat/?channels=#fengari)
@@ -6,13 +6,13 @@
 
 # fengari-web
 
-Provides anything you need to run [Fengari](https://fengari.io) in the browser.
+Provides anything you need to run [Fengari](https://github.com/fengari-lua/fengari) in the browser.
 
 ## Getting started
 
 ### Download
 
-Visit the [GitHub releases page](https://github.com/fengari-lua/fengari-web/releases) and get the latest version.
+Visit the [GitHub releases page](https://github.com/Carot-Subsidiaries/fengari-web/releases) and get the latest version.
 
 Alternatively you can [Build](#Building) fengari-web yourself.
 
@@ -47,13 +47,9 @@ See [fengari-loader](https://github.com/fengari-lua/fengari-loader/)
 
 fengari-web should work in all modern browsers.
 
-Verified to work in:
+Verified to work in: 
 
-  - Chrome >= 38
-  - Firefox >= 19
-  - Safari >= 8
-  - Microsoft IE 11
-  - Microsoft Edge
+  - Manifest V3 🎉
 
 
 ## API
@@ -72,7 +68,7 @@ As well as running `<script type="application/lua">` tags, fengari-web creates a
 ## Building
 
 ```bash
-git clone https://github.com/fengari-lua/fengari-web.git
+git clone https://github.com/Carot-Subsidiaries/fengari-web.git
 npm install
 ```
 
